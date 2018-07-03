@@ -6,3 +6,11 @@ source /etc/network/interfaces.d/*
 # The loopback network interface
 auto lo
 iface lo inet loopback
+
+allow hot-plug eth1
+iface eth1 inet static
+address 10.0.0.1
+netmask 255.255.255.0
+broadcast 10.0.0.255
+network 10.0.0.0
+
