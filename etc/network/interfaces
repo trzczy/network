@@ -9,8 +9,8 @@ iface lo inet loopback
 
 allow hot-plug eth1
 iface eth1 inet static
-address 10.0.0.1
+address 192.168.0.1
 netmask 255.255.255.0
-broadcast 10.0.0.255
-network 10.0.0.0
+broadcast 192.168.0.255
+network 192.168.0.0
 
