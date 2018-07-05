@@ -1,5 +1,5 @@
 ### network
-#router of d2500cc
+# router of d2500cc
 ```
 root@remo:~# cat  .bash_history|grep install
   
