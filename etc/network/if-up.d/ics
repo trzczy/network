@@ -1,4 +1,5 @@
 #!/bin/sh
+iw dev wlan0 set 4addr on
 #--------------------ics
 . /etc/init.d/ics_sharing.sh
 #--------------------ics /

@@ -1,7 +1,7 @@
 #!/bin/sh
 IPT="/sbin/iptables"
 WAN="ppp0"
-LAN="eth1"
+LAN="br0"
 
 $IPT -F
 $IPT -F INPUT
